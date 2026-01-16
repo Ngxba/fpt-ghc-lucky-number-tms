@@ -733,6 +733,16 @@ function App() {
           <p className="footer-text">
             Made with ❤️ by <span className="footer-name">lamnbt1</span>
           </p>
+          <p className="footer-source">
+            <a
+              href="https://github.com/Ngxba/fpt-ghc-lucky-number-tms"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-link"
+            >
+              View Source on GitHub
+            </a>
+          </p>
         </div>
       </footer>
     </div>
