@@ -1,0 +1,46 @@
+:root {
+  --color-bg: #FEFBF6;
+  --color-surface: #FFFFFF;
+  --color-coral: #FF6B6B;
+  --color-gold: #FFD93D;
+  --color-teal: #4ECDC4;
+  --color-lavender: #A78BFA;
+  --color-text: #2D3748;
+  --color-text-light: #718096;
+  --color-border: #E2E8F0;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --radius: 20px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
